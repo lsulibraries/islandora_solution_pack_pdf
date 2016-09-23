@@ -20,7 +20,6 @@
     <?php endif; ?>
   </div>
   <div class="islandora-pdf-metadata">
-    <?php print $description; ?>
     <?php if($parent_collections): ?>
       <div>
         <h2><?php print t('In collections'); ?></h2>
